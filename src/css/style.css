@@ -1,0 +1,35 @@
+#im_dialogs li {
+  position: relative;
+}
+
+#im_dialogs li > .VKMessageSoundNote {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+}
+
+#im_dialogs li > .VKMessageSoundDiv {
+  position: absolute;
+  top: 1%;
+  left: 0;
+  width: 95%;
+  height: 98%;
+  z-index: 1;
+  background: #fff;
+  padding-left: 5%;
+  color: #285473;
+  cursor: pointer;
+}
+
+#im_dialogs li > .VKMessageSoundDiv img {
+  width: 13px;
+  height: 13px;
+}
+
+#im_dialogs li > .VKMessageSoundDiv p {
+  margin: 0;
+  font-weight: bold;
+}
